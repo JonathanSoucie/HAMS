@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125832884582",
+    "project_id": "hams-e3254",
+    "storage_bucket": "hams-e3254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125832884582:android:ccc8a91f32995f5353d8a7",
+        "android_client_info": {
+          "package_name": "com.example.hams"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvA1UYBY-cJJJbKGmAUB_2q1SOtDpEpsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
