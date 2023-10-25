@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:id="@+id/ListEmail"
+        android:text="Email"
+        android:textSize="21sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"/>
+    
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:id="@+id/ListType"
+        android:text="Type"
+        android:textSize="21sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="220dp"
+        android:layout_toEndOf = "@id/ListEmail"
+        />
+        
+</androidx.cardview.widget.CardView>
